@@ -1,0 +1,41 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --primary-color: rgb(142 35 255);
+  --light-primary-color: rgb(247 238 255);
+  --white-color: #ffffff;
+  --header-color: rgb(34 33 75);
+  --green-color: rgb(47 185 18);
+  --light-green-color: rgb(224 245 219);
+  --red-color: rgb(216 82 65);
+  --light-red-color: rgb(246 220 217);
+  --yellow-color: rgb(242 190 69);
+  --light-yellow-color: rgb(251 235 199);
+  --blue-color: rgb(53 130 244);
+  --background-color: rgb(246 247 251);
+  --border-color: rgba(224, 224, 224, 1);
+  --light-black-color: rgb(118 118 118);
+}
+
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: var(--background-color);
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
